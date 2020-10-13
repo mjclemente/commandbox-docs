@@ -35,7 +35,7 @@ Announced immediately after command execution is complete. If more than one comm
 
 ## prePrompt
 
-Announced prior to drawing the prompt in the interactive shell.  This interception point can be used to customize the text of the prompt by modifying the `prompt` variable in intercept data which is an ANSI-formatted string to be output before the cursor.
+Announced prior to drawing the prompt in the interactive shell. This interception point can be used to customize the text of the prompt by modifying the `prompt` variable in intercept data which is an ANSI-formatted string to be output before the cursor.
 
 **interceptData**
 
@@ -63,7 +63,7 @@ Pre and post command fire before and after each command, but that means they fir
 echo `package show name`
 ```
 
-`postProcessLine` will fire only once for the above command after the entire line has been executed.  Any output is already sent to the console by the time this interception point fires.
+`postProcessLine` will fire only once for the above command after the entire line has been executed. Any output is already sent to the console by the time this interception point fires.
 
 **interceptData**
 

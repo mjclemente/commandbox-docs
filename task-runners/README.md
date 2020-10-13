@@ -20,12 +20,12 @@ That will open the following new file in your default CFML IDE:
 */
 component {
 
-	/**
-	* 
-	*/
-	function run() {
-		print.greenLine( 'Complete!' );
-	}
+    /**
+    * 
+    */
+    function run() {
+        print.greenLine( 'Complete!' );
+    }
 
 }
 ```

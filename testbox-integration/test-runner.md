@@ -21,14 +21,14 @@ package set testbox.runner="http://localhost:8080/tests/runner.cfm"
 testbox run
 ```
 
-You can also use a relative path and CommandBox will look up the host and port from your server settings.  
+You can also use a relative path and CommandBox will look up the host and port from your server settings.
 
 ```text
 package set testbox.runner="/tests/runner.cfm"
 testbox run
 ```
 
-The default runner URL of the `testbox run` command is  `/tests/runner.cfm` so there's actually no need to even configure it if you're using the default convention location for your runner.
+The default runner URL of the `testbox run` command is `/tests/runner.cfm` so there's actually no need to even configure it if you're using the default convention location for your runner.
 
 ### Additional Settings
 
@@ -56,5 +56,5 @@ TestBox v2.5.0+107
 
 ## Code Coverage
 
-If you run tests on a server with FusionReactor installed and you are using TestBox 2.9 or greater, you will have code coverage reported in the CLI output as a percentage as well as the LOC \(lines of code\) that were tracked. 
+If you run tests on a server with FusionReactor installed and you are using TestBox 2.9 or greater, you will have code coverage reported in the CLI output as a percentage as well as the LOC \(lines of code\) that were tracked.
 

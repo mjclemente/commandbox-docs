@@ -23,8 +23,6 @@ print.line( 'I like Spam.' );
 print.line();
 ```
 
-### 
-
 ### Text Color <a id="text-color"></a>
 
 CommandBox supports 256 colors, but some terminals only support 16 or even 8. If you use a color that the terminal doesn't support, it will be adjusted to the next closest color. If the method has one of the names of a supported color in it, the text will be colored. Here are the basic 16 color names:

@@ -41,7 +41,7 @@ When a user hits tab while typing a parameter value, booleans will prompt with t
 
 You can provide additional hints though for your parameters to make them super user friendly.
 
-If you have a parameter that doesn't contain one of the keywords above but you still want it to provide the user with path, directory, or file tab completion, you can add annotations to the arguments to enable this.  
+If you have a parameter that doesn't contain one of the keywords above but you still want it to provide the user with path, directory, or file tab completion, you can add annotations to the arguments to enable this.
 
 * **optionsFileComplete**
 * **optionsDirectoryComplete**
@@ -57,7 +57,7 @@ Ex:
 */
 ```
 
-A parameter can have both the annotations for file and directory completion as well as an `optionsUDF` ****or `options` list specified and they will all be used.  The user will be presented with the combined list of tab completion candidates.
+A parameter can have both the annotations for file and directory completion as well as an `optionsUDF` _\*\*_or `options` list specified and they will all be used. The user will be presented with the combined list of tab completion candidates.
 
 ### Static Options
 
@@ -112,7 +112,7 @@ array function completeTypes() {
 
 ## Smart Tab Complete
 
-Your tab complete UDF is called every time the user hits tab, but sometimes the options you want to present are based on some context.  There are two parameters to your UDF which give you some context.
+Your tab complete UDF is called every time the user hits tab, but sometimes the options you want to present are based on some context. There are two parameters to your UDF which give you some context.
 
 ```javascript
 array function completeTypes( string paramSoFar, struct passedNamedParameters ) {

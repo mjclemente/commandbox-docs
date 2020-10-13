@@ -2,7 +2,7 @@
 
 ## CommandBox Docker Deployments
 
-![](../.gitbook/assets/docker.png)
+![](../.gitbook/assets/docker%20%281%29.png)
 
 CommandBox also provides an [official Docker image](https://hub.docker.com/r/ortussolutions/commandbox/), which allows you to leverage its capability to orchestrate live servers in multi-tier deployments.
 

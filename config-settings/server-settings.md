@@ -6,7 +6,7 @@ These settings control how servers start in CommandBox.
 
 **struct**
 
-This struct can contain any [setting that is valid in a `server.json` file](../embedded-server/server.json/). These settings are used as global default settings if there is not a corresponding setting provided by the user via a parameter to the `start` command or in the server's `server.json` file.
+This struct can contain any [setting that is valid in a `server.json` file](https://github.com/mjclemente/commandbox-docs/tree/d33d911ccdb6d23dbfd12757f266e8f0cebca70e/embedded-server/server.json). These settings are used as global default settings if there is not a corresponding setting provided by the user via a parameter to the `start` command or in the server's `server.json` file.
 
 ```bash
 config set server.defaults.web.rewrites.enable=true
